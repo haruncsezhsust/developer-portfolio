@@ -25,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-logo{
     font-weight: 700;
@@ -167,7 +167,7 @@ nav li{
 .education-experience-container{
     margin-top: 113px;
     display: flex;
-    gap: 70px;
+    gap: 24px;
     
 }
 .education{
@@ -176,8 +176,14 @@ nav li{
 .experience{
 }
 .education-experience-info{
-
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
+.no-border{
+    border: none;
+}
+
+
 .edu-ex-head{
     font-size: 30px;
     font-weight: 700;
@@ -199,11 +205,59 @@ nav li{
     margin-top: 20px;
 }
 
-.resume .horizontal-line{
-    opacity: 30%;
-    margin-bottom: 30px;
+.bottom-border{
+    border-bottom: 5px solid #ff0000;
 }
 
-.resume .btn-primary{
-    
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* footer styles */
+.footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+.footer-content-container{
+    display: flex;
+    gap: 60px;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 130px 0;
+
+}
+
+.footer-content-header{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-content .description-text{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer .connect-icons li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.message .footer-content-header{
+    margin-bottom: 28px;
+}
+
+/* form styles */
+#name, #email, #message{
+    padding: 18px;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+    color: #757575;
+    border-radius: 5px;
+    width: 100%;
+
 }
